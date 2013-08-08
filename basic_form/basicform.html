@@ -12,6 +12,26 @@
 			margin: 10px;
 		}
 
+		.standard_input{
+			background: white;
+			padding:5px 10px;
+			color: #999999;
+			border: solid 1px #ccc;
+			font-size: 14px;
+			display: block;
+			width: 400px;
+			margin-top: 20px;
+		}
+		.submit_button{
+			padding: 5px;
+			color: red;
+			background-color: green;
+		}
+
+
+
+
+
 	</style>
 
    
@@ -27,6 +47,7 @@
 		<input type="text" id="first_name" name="first_name" class="standard_input" placeholder="first name" />
 		<input type="email" id="email" name="email" class="standard_input" placeholder="email" />
 		<input type="password" id="password" name="password" class="standard_input" placeholder="password" />
+		<textarea name="comments" id="comments" class="standard_input" placeholder="comments"></textarea>
 		<div class="break">
 			<input type="radio" name="gender" value="male" />Male
 			<input type="radio" name="gender" value="female" />Female
@@ -50,7 +71,7 @@
 		</div>
 
 		<div class="break">
-			<input type="submit" value="SUBMIT THE FORM!!" />
+			<input type="submit" value="SUBMIT THE FORM!!" class="submit_button"/>
 		</div>
 
 
