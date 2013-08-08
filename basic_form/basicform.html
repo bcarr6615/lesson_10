@@ -23,7 +23,31 @@
 
 	<h1>Our simple web form</h1>
 	<form method="post" action="/login.php">
-		
+
+		<input type="text" id="first_name" name="first_name" class="standard_input" placeholder="first name" />
+		<input type="email" id="email" name="email" class="standard_input" placeholder="email" />
+		<input type="password" id="password" name="password" class="standard_input" placeholder="password" />
+		<div class="break">
+			<input type="radio" name="gender" value="male" />Male
+			<input type="radio" name="gender" value="female" />Female
+		</div>
+
+		<div class="break">
+			<input type="checkbox" name="contact" value="phone" />Phone
+			<input type="checkbox" name="contact" value="email" />Email
+			<input type="checkbox" name="contact" value="phone" />Phone
+
+		</div>
+
+		<div class="break">
+			<select name="dob">
+				<option value="" selected>Select an Age</option>
+				<option value="1990">1990</option>
+				<option value="1989">1989</option>
+				<option value="1988">1988</option>
+				<option value="1987">1987</option>
+			</select>
+		</div>
 
 
 	</form>
